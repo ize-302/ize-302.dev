@@ -1,28 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div class="flex justify-between px-4 md:px-10 py-8">
+      <p class="font-sans font-bold">IZE-302</p>
+      <div>menus</div>
+    </div>
+    <div class="container mx-auto max-w-2xl px-4 md:px-0">
+      <hello-world />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from "./components/HelloWorld.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { HelloWorld },
+  name: "App",
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
