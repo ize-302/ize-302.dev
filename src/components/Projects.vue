@@ -1,27 +1,5 @@
 <template>
-  <div class="py-10">
-    <h1 class="text-4xl font-extrabold">Adavize Hassan</h1>
-    <article class="mt-10">
-      <div class="m-auto flex flex-col gap-4 leading-7 text-gray-600">
-        <p>Hi, I am Adavize-</p>
-        <p>
-          I love JavaScript and Open Souce. Particularly, I have a passion for
-          developing intuitive user interfaces for a snappy and delightful web
-          experience.
-        </p>
-        <p>
-          I currently work at
-          <a
-            class="text-black border-b border-gray-300"
-            target="_blank"
-            href="https://www.trysend.com/"
-            >Send Shipping</a
-          >
-          as a Frontend Engineer.
-        </p>
-      </div>
-    </article>
-    <div class="border-t border-gray-200 w-20 my-10" />
+  <div>
     <h1 class="mb-4 text-2xl font-extrabold">Projects</h1>
     <p
       class="m-auto flex flex-col gap-4 leading-7 text-gray-400 font-light italic"
@@ -79,19 +57,18 @@ import {
 } from "../projects";
 
 export default {
-  name: "HelloWorld",
+  name: "Projects",
+  components: {
+    ProjectCard,
+  },
   data() {
     return {
-      message: "hi",
       opensourceprojects,
       browsertools,
       webapps,
       apis,
       latest,
     };
-  },
-  components: {
-    ProjectCard,
   },
 };
 </script>
