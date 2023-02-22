@@ -1,31 +1,42 @@
 <template>
-  <div class="py-10">
-    <h1 class="text-4xl font-extrabold">Adavize Hassan</h1>
-    <article class="mt-10">
-      <div class="m-auto flex flex-col gap-4 leading-7 text-gray-600">
-        <p>Hi, I am Adavize - software engineer.</p>
-        <p>
-          I love JavaScript and Open Source. Particularly, I enjoy building
-          intuitive user interfaces for a snappy and delightful web experience.
-        </p>
-        <p>
-          I currently work at
-          <a
-            class="text-black border-b border-gray-300"
-            target="_blank"
-            href="https://www.trysend.com/"
-            >Send Shipping</a
-          >
-          as a Frontend Engineer.
-        </p>
+  <div class="pt-10 md:pt-24">
+    <div class="flex items-center mt-10 justify-between">
+      <div class="text-3xl animate-pulse">⚡⚡⚡</div>
+      <div class="flex items-center gap-4">
+        <a
+          href="https://github.com/ize-302"
+          class="hover:opacity-70"
+          target="_blank"
+        >
+          <github-icon />
+        </a>
       </div>
-    </article>
-    <div class="border-t border-gray-200 w-20 mt-10" />
+    </div>
+    <p class="text-gray-400 font-normal mt-10">
+      I'm <span class="text-white">Adavize</span> a software developer and
+      tinkerer.
+    </p>
+
+    <p class="text-gray-400 mt-4 max-w-lg font-normal leading-7">
+      I am currently attempting to build and ship as much product as I can.
+      Follow me on this journey as I work to reach my goal, one product at a
+      time 🤞
+    </p>
+
+    <a
+      class="mt-8 flex items-center gap-1 text-yellow-500"
+      href="mailto:adavizeozorku@gmail.com"
+      >Shoot me a mail
+      <span class="material-symbols-outlined text-sm"> arrow_outward </span></a
+    >
   </div>
 </template>
 
 <script>
+import GithubIcon from "./github";
+
 export default {
   name: "Hello",
+  components: { GithubIcon },
 };
 </script>

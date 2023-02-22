@@ -1,8 +1,10 @@
 <template>
-  <div
-    class="container mx-auto max-w-2xl px-4 text-xs md:px-0 my-10 text-gray-400"
-  >
-    Developed by <a href="https://github.com/ize-302">Adavize</a>
+  <div class="px-4 text-xs md:px-0 pt-20 pb-5 text-gray-400">
+    <div class="w-full border-b border-gray-800 mb-5" />
+    <div class="flex justify-between">
+      <span>Adavize © 2023</span>
+      <div class="text-xl animate-pulse">⚡⚡⚡</div>
+    </div>
   </div>
 </template>
 
