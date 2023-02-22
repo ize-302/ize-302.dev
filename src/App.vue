@@ -1,22 +1,20 @@
 <template>
-  <div>
-    <Header />
-    <div class="container mx-auto max-w-2xl px-4 md:px-0">
+  <div class="min-h-screen bg-black">
+    <div class="container lg:mx-auto max-w-5xl px-5 md:px-10">
       <Hello />
       <Projects />
+      <Footer />
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Hello from "./components/Hello.vue";
 import Projects from "./components/Projects.vue";
-import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
-  components: { Hello, Projects, Header, Footer },
+  components: { Hello, Projects, Footer },
   name: "App",
 };
 </script>

@@ -1,10 +1,15 @@
-export const latest = [
+import someImage from './assets/cmdb-demo-giphy.gif'
+
+export const products = [
   {
-    name: "Dinma's job board",
-    description: "Find your next remote & relocation design role",
-    icon: "work",
-    link: "https://www.dinmaaniugbo.com/",
-  },
+    name: 'Cmd+B',
+    description: 'A chrome extension that brings a unique and more delighful bookmarking experience with some added features',
+    link: {
+      name: 'cmdb.ize-302.dev',
+      url: 'https://cmdb.ize-302.dev/',
+    },
+    image: someImage
+  }
 ]
 
 export const opensourceprojects = [
@@ -42,35 +47,5 @@ export const browsertools = [
     description: "A Chrome Extension for tracking visits to selected URLs",
     icon: "history",
     link: "https://github.com/ize-302/hstry",
-  },
-]
-
-export const webapps = [
-  {
-    name: "manage-repos",
-    description: "Update & delete your github repositories easily",
-    icon: "contrast",
-    link: "https://github.com/ize-302/manage-repos",
-  },
-  {
-    name: "Spoticast",
-    description: "A standalone spotify podcast app",
-    icon: "podcasts",
-    link: "https://spoticast.herokuapp.com/",
-  },
-  {
-    name: "open-bookmark-fe",
-    description: "Web app for public bookmarking platform",
-    icon: "bookmark",
-    link: "https://github.com/ize-302/open-bookmark-fe",
-  },
-]
-
-export const apis = [
-  {
-    name: "open-bookmark-api",
-    description: "API for public bookmarking platform",
-    icon: "bookmark",
-    link: "https://github.com/ize-302/open-bookmark-api",
   },
 ]
