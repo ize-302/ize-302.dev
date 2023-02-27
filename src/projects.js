@@ -2,12 +2,22 @@ import someImage from './assets/cmdb-demo-giphy.gif'
 
 export const products = [
   {
-    name: 'Cmd+B',
+    name: 'Cmd+B 🔖 ',
     description: 'A chrome extension that brings a unique and more delighful bookmarking experience with some added features',
     link: {
       name: 'cmdb.ize-302.dev',
       url: 'https://cmdb.ize-302.dev/',
     },
+    image: someImage
+  },
+  {
+    name: 'Interview tracking app 💼 ',
+    description: 'Keep record and track all your job interviews in one place',
+    link: {
+      name: 'Work in progress',
+      url: '',
+    },
+    wip: true,
     image: someImage
   }
 ]
