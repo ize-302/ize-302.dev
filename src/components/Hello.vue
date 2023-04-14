@@ -18,9 +18,9 @@
     </p>
 
     <p class="text-gray-400 mt-4 max-w-lg font-normal leading-7">
-      I am currently attempting to build and ship as much product as I can.
-      Follow me on this journey as I work to reach my goal, one product at a
-      time 🤞
+      Currently, my focus is on constructing and delivering as many products as
+      possible. Join me on this venture as I strive to achieve my objective, one
+      product at a time 🤞
     </p>
 
     <a

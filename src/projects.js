@@ -1,4 +1,5 @@
-import someImage from './assets/cmdb-demo-giphy.gif'
+import cmdbthumbnail from './assets/cmdb-demo-giphy.gif'
+import jobroadthumbnail from './assets/jobroad-demo.png'
 
 export const products = [
   {
@@ -8,17 +9,16 @@ export const products = [
       name: 'cmdb.ize-302.dev',
       url: 'https://cmdb.ize-302.dev/',
     },
-    image: someImage
+    image: cmdbthumbnail
   },
   {
-    name: 'Interview tracking app 💼 ',
+    name: 'Jobroad 💼 ',
     description: 'Keep record and track all your job interviews in one place',
     link: {
-      name: 'Work in progress',
-      url: '',
+      name: 'jobroad.ize-302.dev',
+      url: 'https://jobroad.ize-302.dev/',
     },
-    wip: true,
-    image: someImage
+    image: jobroadthumbnail
   }
 ]
 
