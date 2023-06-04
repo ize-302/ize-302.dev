@@ -12,7 +12,7 @@ export const products = [
     image: cmdbthumbnail
   },
   {
-    name: 'Jobroad 💼 ',
+    name: 'JOB \\\\ ROAD 💼',
     description: 'Keep record and track all your job interviews in one place',
     link: {
       name: 'jobroad.co',
