@@ -1,5 +1,5 @@
 import cmdbthumbnail from './assets/cmdb-demo-giphy.gif'
-import jobroadthumbnail from './assets/jobroad-demo.png'
+import jobroadthumbnail from './assets/jobroad-demo.gif'
 
 export const products = [
   {
@@ -12,11 +12,11 @@ export const products = [
     image: cmdbthumbnail
   },
   {
-    name: 'Jobroad 💼 ',
+    name: 'JOB \\\\ ROAD 💼',
     description: 'Keep record and track all your job interviews in one place',
     link: {
-      name: 'jobroad.ize-302.dev',
-      url: 'https://jobroad.ize-302.dev/',
+      name: 'jobroad.co',
+      url: 'https://jobroad.co/',
     },
     image: jobroadthumbnail
   }
