@@ -1,5 +1,6 @@
 import cmdbthumbnail from './assets/cmdb-demo-giphy.gif'
 import jobroadthumbnail from './assets/jobroad-demo.gif'
+import ratesqthumbnail from './assets/rate-sq-demo.gif'
 
 export const products = [
   {
@@ -19,6 +20,15 @@ export const products = [
       url: 'https://jobroad.co/',
     },
     image: jobroadthumbnail
+  },
+  {
+    name: 'Rate SQ 📺 ',
+    description: 'Web app for rating opening sequence of tv shows',
+    link: {
+      name: 'rate-sq.vercel.app',
+      url: 'https://rate-sq.vercel.app',
+    },
+    image: ratesqthumbnail
   }
 ]
 
