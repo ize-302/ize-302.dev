@@ -1,6 +1,8 @@
 import cmdbthumbnail from './assets/cmdb-demo-giphy.gif'
 import jobroadthumbnail from './assets/jobroad-demo.gif'
 import ratesqthumbnail from './assets/rate-sq-demo.gif'
+import ghuseractivitythumbnail from './assets/gh-user-activity-demo.gif'
+import fire from './assets/fire.gif'
 
 export const products = [
   {
@@ -29,6 +31,33 @@ export const products = [
       url: 'https://rate-sq.vercel.app',
     },
     image: ratesqthumbnail
+  },
+  {
+    name: 'ChatGPT Clone 🤖',
+    description: 'ChatGPT clone with speech-to-text support',
+    link: {
+      name: 'openai-playground-clone',
+      url: 'https://github.com/ize-302/openai-playground-clone',
+    },
+    image: fire
+  },
+  {
+    name: 'Twitter clone API 🐦',
+    description: 'A tiny app implementing twitter core feature',
+    link: {
+      name: 'twitter-clone-api',
+      url: 'https://github.com/ize-302/twitter-clone-api',
+    },
+    image: fire
+  },
+  {
+    name: "Github user's activity tab 🔥 ",
+    description: 'A Chrome extension to view activities of a Github user',
+    link: {
+      name: 'gh-user-activity-tab ',
+      url: 'https://github.com/ize-302/gh-user-activity-tab',
+    },
+    image: ghuseractivitythumbnail
   }
 ]
 
