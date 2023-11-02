@@ -12,12 +12,16 @@
       src="../assets/dp.png"
     />
     <h1 class="text-5xl font-bold tracking-tighter">
-      Software developer and tinkerer.
+      Software developer and hobbyist.
     </h1>
 
-    <p class="text-zinc-600 mt-6 text-base max-w-lg font-normal leading-7">
-      Hey, I'm Adavize. I am a software developer currently open to exploring
-      new opportunities
+    <p class="text-zinc-600 mt-6 text-base max-w-2xl font-normal leading-7">
+      Hey, I'm Adavize, a seasoned software developer with a passion for
+      creating tools that cater to both developers and customers regardless of
+      stack.
+      <b class="text-black font-semibold"
+        >I'm currently interested in exploring fresh career prospects.</b
+      >
     </p>
 
     <div class="mt-6 flex gap-6">
