@@ -1,20 +1,20 @@
 <template>
-  <div class="min-h-screen bg-black">
-    <div class="container lg:mx-auto max-w-5xl px-5 md:px-10">
-      <Hello />
-      <Projects />
-      <Footer />
+  <div class="min-h-screen bg-white py-16 sm:py-32">
+    <div class="container lg:mx-auto max-w-6xl px-5 md:px-10">
+      <Introduction />
+      <projects />
+      <open-source-contributions />
     </div>
   </div>
 </template>
 
 <script>
-import Hello from "./components/Hello.vue";
+import Introduction from "./components/Introduction.vue";
 import Projects from "./components/Projects.vue";
-import Footer from "./components/Footer.vue";
+import OpenSourceContributions from "./components/OpenSourceContributions.vue";
 
 export default {
-  components: { Hello, Projects, Footer },
+  components: { Introduction, Projects, OpenSourceContributions },
   name: "App",
 };
 </script>
