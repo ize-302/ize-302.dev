@@ -1,14 +1,6 @@
 export const personalprojects = [
   {
-    name: 'JOB \\\\ ROAD 💼',
-    description: 'Keep record and track all your job interviews in one place',
-    link: {
-      name: 'Live App',
-      url: 'https://jobroad.co/',
-    }
-  },
-  {
-    name: 'EnvBadge',
+    name: '🌐 EnvBadge',
     description: 'Open-source solution for identifying your current web environment at a glance.',
     link: {
       name: 'Live app',
@@ -16,27 +8,36 @@ export const personalprojects = [
     }
   },
   {
-    name: 'Bunsoir',
-    description: 'Quickly setup Bun-based backend application with little development configuration',
+    name: '💼 JOB \\\\ ROAD',
+    description: 'Keep record and track all your job interviews in one place',
     link: {
-      name: 'Source code',
-      url: 'https://github.com/ize-302/bunsoir',
+      name: 'Live App',
+      url: 'https://jobroad.co/',
     }
   },
   {
-    name: 'Manage repos',
+    name: '⚙ Manage repos',
     description: 'Update & delete your github repositories easily',
     link: {
       name: 'Live app',
       url: 'https://manage-repos.vercel.app',
     }
   },
+  // open source
   {
-    name: '📦👮🏽 pkg-police',
-    description: 'A command-line utility that enumerates utilized and unused packages within a project.',
+    name: '🧭 border-ng-js',
+    description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
     link: {
       name: 'Source code',
-      url: 'https://github.com/ize-302/pkg-police',
+      url: 'https://github.com/ize-302/border-ng-js',
+    },
+  },
+  {
+    name: '🍞 Bunsoir',
+    description: 'Quickly setup Bun-based backend application with little development configuration',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/bunsoir',
     }
   },
   {
@@ -48,12 +49,12 @@ export const personalprojects = [
     },
   },
   {
-    name: 'border-ng-js',
-    description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
+    name: '👮🏽 pkg-police',
+    description: 'A command-line utility that enumerates utilized and unused packages within a project.',
     link: {
       name: 'Source code',
-      url: 'https://github.com/ize-302/border-ng-js',
-    },
+      url: 'https://github.com/ize-302/pkg-police',
+    }
   },
 ]
 
@@ -63,6 +64,13 @@ export const opensourcecontributions = [
     description: "Use GitHub emojis from their API as an npm package",
     icon: "mood",
     link: "https://github.com/privatenumber/gh-emojis/commits?author=ize-302",
+  },
+  {
+    name: "JSON-calendar",
+    description:
+      "A JSON data object that I used to display a calendar web UI",
+    icon: "calendar_month",
+    link: "https://github.com/rxgx/json-calendar/commits?author=ize-302",
   },
   {
     name: "nigerian-banks",
@@ -76,13 +84,6 @@ export const opensourcecontributions = [
     description: "High quality vector logos for Nigerian companies",
     icon: "category",
     link: "https://github.com/PaystackHQ/nigerialogos/commits?author=ize-302",
-  },
-  {
-    name: "JSON-calendar",
-    description:
-      "A JSON data object that I used to display a calendar web UI",
-    icon: "calendar_month",
-    link: "https://github.com/rxgx/json-calendar/commits?author=ize-302",
   },
 ]
 
