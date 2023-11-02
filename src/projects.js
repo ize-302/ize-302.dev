@@ -1,72 +1,68 @@
-import cmdbthumbnail from './assets/cmdb-demo-giphy.gif'
-import jobroadthumbnail from './assets/jobroad-demo.gif'
-import ratesqthumbnail from './assets/rate-sq-demo.gif'
-import ghuseractivitythumbnail from './assets/gh-user-activity-demo.gif'
-import fire from './assets/fire.gif'
-
-export const products = [
-  {
-    name: 'Cmd+B 🔖 ',
-    description: 'A chrome extension that brings a unique and more delighful bookmarking experience with some added features',
-    link: {
-      name: 'cmdb.ize-302.dev',
-      url: 'https://cmdb.ize-302.dev/',
-    },
-    image: cmdbthumbnail
-  },
+export const personalprojects = [
   {
     name: 'JOB \\\\ ROAD 💼',
     description: 'Keep record and track all your job interviews in one place',
     link: {
-      name: 'jobroad.co',
+      name: 'Live App',
       url: 'https://jobroad.co/',
-    },
-    image: jobroadthumbnail
+    }
   },
   {
-    name: 'Rate SQ 📺 ',
-    description: 'Web app for rating opening sequence of tv shows',
+    name: 'EnvBadge',
+    description: 'Open-source solution for identifying your current web environment at a glance.',
     link: {
-      name: 'rate-sq.vercel.app',
-      url: 'https://rate-sq.vercel.app',
-    },
-    image: ratesqthumbnail
+      name: 'Live app',
+      url: 'https://envbadge.vercel.app',
+    }
   },
   {
-    name: 'ChatGPT Clone 🤖',
-    description: 'ChatGPT clone with speech-to-text support',
+    name: 'Bunsoir',
+    description: 'Quickly setup Bun-based backend application with little development configuration',
     link: {
-      name: 'openai-playground-clone',
-      url: 'https://github.com/ize-302/openai-playground-clone',
-    },
-    image: fire
+      name: 'Source code',
+      url: 'https://github.com/ize-302/bunsoir',
+    }
   },
   {
-    name: 'Twitter clone API 🐦',
-    description: 'A tiny app implementing twitter core feature',
+    name: 'Manage repos',
+    description: 'Update & delete your github repositories easily',
     link: {
-      name: 'twitter-clone-api',
-      url: 'https://github.com/ize-302/twitter-clone-api',
-    },
-    image: fire
+      name: 'Live app',
+      url: 'https://manage-repos.vercel.app',
+    }
   },
   {
-    name: "Github user's activity tab 🔥 ",
-    description: 'A Chrome extension to view activities of a Github user',
+    name: '📦👮🏽 pkg-police',
+    description: 'A command-line utility that enumerates utilized and unused packages within a project.',
     link: {
-      name: 'gh-user-activity-tab ',
-      url: 'https://github.com/ize-302/gh-user-activity-tab',
+      name: 'Source code',
+      url: 'https://github.com/ize-302/pkg-police',
+    }
+  },
+  {
+    name: '🔄 env-sync',
+    description: 'env-sync automates the process of syncing and saving examples of all your env files',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/env-sync',
     },
-    image: ghuseractivitythumbnail
-  }
+  },
+  {
+    name: 'border-ng-js',
+    description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/border-ng-js',
+    },
+  },
 ]
 
-export const opensourceprojects = [
+export const opensourcecontributions = [
   {
     name: "gh-emoji",
     description: "Use GitHub emojis from their API as an npm package",
     icon: "mood",
-    link: "https://github.com/privatenumber/gh-emojis",
+    link: "https://github.com/privatenumber/gh-emojis/commits?author=ize-302",
   },
   {
     name: "nigerian-banks",
@@ -79,14 +75,14 @@ export const opensourceprojects = [
     name: "nigerialogos",
     description: "High quality vector logos for Nigerian companies",
     icon: "category",
-    link: "https://github.com/PaystackHQ/nigerialogos",
+    link: "https://github.com/PaystackHQ/nigerialogos/commits?author=ize-302",
   },
   {
     name: "JSON-calendar",
     description:
       "A JSON data object that I used to display a calendar web UI",
     icon: "calendar_month",
-    link: "https://github.com/rxgx/json-calendar",
+    link: "https://github.com/rxgx/json-calendar/commits?author=ize-302",
   },
 ]
 
