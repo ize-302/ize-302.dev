@@ -1,11 +1,35 @@
 export const personalprojects = [
   {
+    name: '🧭 border-ng-js',
+    description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/border-ng-js',
+    },
+  },
+  {
+    name: '🍞 Bunsoir',
+    description: 'Quickly setup Bun-based backend application with little development configuration',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/bunsoir',
+    }
+  },
+  {
     name: '🌐 EnvBadge',
     description: 'Open-source solution for identifying your current web environment at a glance.',
     link: {
       name: 'Live app',
       url: 'https://envbadge.vercel.app',
     }
+  },
+  {
+    name: '🔄 env-sync',
+    description: 'env-sync automates the process of syncing and saving examples of all your env files',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/env-sync',
+    },
   },
   {
     name: '💼 JOB \\\\ ROAD',
@@ -24,39 +48,6 @@ export const personalprojects = [
     }
   },
   {
-    name: '⭐ RateSQ',
-    description: 'Web app for rating opening sequence of tv shows',
-    link: {
-      name: 'Live app',
-      url: 'https://rate-sq.vercel.app/',
-    }
-  },
-  // open source
-  {
-    name: '🧭 border-ng-js',
-    description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
-    link: {
-      name: 'Source code',
-      url: 'https://github.com/ize-302/border-ng-js',
-    },
-  },
-  {
-    name: '🍞 Bunsoir',
-    description: 'Quickly setup Bun-based backend application with little development configuration',
-    link: {
-      name: 'Source code',
-      url: 'https://github.com/ize-302/bunsoir',
-    }
-  },
-  {
-    name: '🔄 env-sync',
-    description: 'env-sync automates the process of syncing and saving examples of all your env files',
-    link: {
-      name: 'Source code',
-      url: 'https://github.com/ize-302/env-sync',
-    },
-  },
-  {
     name: '👮🏽 pkg-police',
     description: 'A command-line utility that enumerates utilized and unused packages within a project.',
     link: {
@@ -64,6 +55,15 @@ export const personalprojects = [
       url: 'https://github.com/ize-302/pkg-police',
     }
   },
+  {
+    name: '⭐ RateSQ',
+    description: 'Web app for rating opening sequence of tv shows',
+    link: {
+      name: 'Live app',
+      url: 'https://rate-sq.vercel.app/',
+    }
+  },
+
 ]
 
 export const opensourcecontributions = [
