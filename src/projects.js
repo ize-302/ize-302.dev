@@ -23,6 +23,14 @@ export const personalprojects = [
       url: 'https://manage-repos.vercel.app',
     }
   },
+  {
+    name: '⭐ RateSQ',
+    description: 'Web app for rating opening sequence of tv shows',
+    link: {
+      name: 'Live app',
+      url: 'https://rate-sq.vercel.app/',
+    }
+  },
   // open source
   {
     name: '🧭 border-ng-js',
