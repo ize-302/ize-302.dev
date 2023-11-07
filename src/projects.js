@@ -16,6 +16,14 @@ export const personalprojects = [
     }
   },
   {
+    name: '🔖 Cmd+B',
+    description: 'A beautiful and accessible bookmark manager for your chrome browser',
+    link: {
+      name: 'Chrome webstore',
+      url: 'https://cmdb.ize-302.dev',
+    }
+  },
+  {
     name: '🌐 EnvBadge',
     description: 'Open-source solution for identifying your current web environment at a glance.',
     link: {
@@ -32,7 +40,7 @@ export const personalprojects = [
     },
   },
   {
-    name: '💼 JOB \\\\ ROAD',
+    name: '💼 JobRoad',
     description: 'Keep record and track all your job interviews in one place',
     link: {
       name: 'Live App',
