@@ -48,6 +48,14 @@ export const personalprojects = [
     }
   },
   {
+    name: '🗓️ json-days',
+    description: 'A JSON data model for getting list of days in a specified year, quarter or month',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/json-days',
+    }
+  },
+  {
     name: '⚙ Manage repos',
     description: 'Update & delete your github repositories easily',
     link: {
