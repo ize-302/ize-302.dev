@@ -40,8 +40,8 @@ export const personalprojects = [
     },
   },
   {
-    name: 'Gravicon',
-    description: '🔌 Figma plugin to retrieve and display favicon from any provided domain or URL',
+    name: '🔌 Gravicon',
+    description: 'Figma plugin to retrieve and display favicon from any provided domain or URL',
     link: {
       name: 'Try it out',
       url: 'https://www.figma.com/community/plugin/1307231621622379453/gravicon',
