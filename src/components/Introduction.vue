@@ -19,8 +19,13 @@
       Hey, I'm Adavize, a seasoned software developer with a passion for
       creating tools that cater to both developers and customers regardless of
       stack.
+      <br />
       <b class="text-black font-semibold"
-        >I'm currently interested in exploring fresh career prospects.</b
+        >I'm currently exploring fresh career prospects and open to
+        opportunities. So if you have any, feel free to connect with me
+        <a class="text-blue-500" href="https://linked.ocm/in/adavize-hassan"
+          >via Linkedin!</a
+        ></b
       >
     </p>
 

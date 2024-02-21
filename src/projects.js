@@ -1,5 +1,13 @@
 export const personalprojects = [
   {
+    name: '📗 addressbook-cli',
+    description: 'A CLI app for managing contact addresses. Built with Python, Typer and sqlite3',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/addressbook-cli',
+    },
+  },
+  {
     name: '🧭 border-ng-js',
     description: 'An NPM package to check if a provided coordinate falls within the borders of Nigeria',
     link: {
@@ -16,11 +24,19 @@ export const personalprojects = [
     }
   },
   {
+    name: '🚗 car-rental-service',
+    description: 'An API service for a car rental platform. Built using python, fastapi, and Postgresql.',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/car-rental-service',
+    }
+  },
+  {
     name: '🔖 Cmd+B',
     description: 'A beautiful and accessible bookmark manager for your chrome browser',
     link: {
       name: 'Chrome webstore',
-      url: 'https://cmdb.ize-302.dev',
+      url: 'https://chromewebstore.google.com/detail/cmd+b/flfoebhhngbkkmkicienbmbnafafodae',
     }
   },
   {
@@ -37,6 +53,22 @@ export const personalprojects = [
     link: {
       name: 'Source code',
       url: 'https://github.com/ize-302/env-sync',
+    },
+  },
+  {
+    name: '🗺️ geo-ng',
+    description: 'Geo-ng is a python package that provides geographical information about States, LGAs and towns in Nigeria',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/geo-ng',
+    },
+  },
+  {
+    name: '🔎 GoJobSearch',
+    description: "Generate search queries to narrow down google job search results",
+    link: {
+      name: 'Try it out',
+      url: 'https://gojobsearch.vercel.app/',
     },
   },
   {
@@ -87,7 +119,14 @@ export const personalprojects = [
       url: 'https://rate-sq.vercel.app/',
     }
   },
-
+  {
+    name: '🐈 thecatapi-py-sdk',
+    description: 'Python wrapper for making secure requests to TheCatAPI',
+    link: {
+      name: 'Source code',
+      url: 'https://github.com/ize-302/thecatapi-py-sdk',
+    },
+  },
 ]
 
 export const opensourcecontributions = [
