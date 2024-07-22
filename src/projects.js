@@ -24,6 +24,16 @@ export const personalprojects = [
     }
   },
   {
+    name: '🔖 Cmd+B',
+    type: 'banner',
+    description: 'A beautiful and accessible bookmark manager for your chrome browser',
+    link: {
+      name: 'Chrome webstore',
+      url: 'https://chromewebstore.google.com/detail/cmd+b/flfoebhhngbkkmkicienbmbnafafodae',
+    },
+    thumbnail: "cmdb.png"
+  },
+  {
     name: '🚗 car-rental-service',
     description: 'An API service for a car rental platform. Built using python, fastapi, and Postgresql.',
     link: {
@@ -31,14 +41,7 @@ export const personalprojects = [
       url: 'https://github.com/ize-302/car-rental-service',
     }
   },
-  {
-    name: '🔖 Cmd+B',
-    description: 'A beautiful and accessible bookmark manager for your chrome browser',
-    link: {
-      name: 'Chrome webstore',
-      url: 'https://chromewebstore.google.com/detail/cmd+b/flfoebhhngbkkmkicienbmbnafafodae',
-    }
-  },
+
   {
     name: '🌐 EnvBadge',
     description: 'Open-source solution for identifying your current web environment at a glance.',
@@ -64,12 +67,12 @@ export const personalprojects = [
     },
   },
   {
-    name: '🔎 GoJobSearch',
-    description: "Generate search queries to narrow down google job search results",
+    name: '🗓️ json-days',
+    description: 'A JSON data model for getting list of days in a specified year, quarter or month',
     link: {
-      name: 'Try it out',
-      url: 'https://gojobsearch.vercel.app/',
-    },
+      name: 'Source code',
+      url: 'https://github.com/ize-302/json-days',
+    }
   },
   {
     name: '🔌 Gravicon',
@@ -80,29 +83,17 @@ export const personalprojects = [
     },
   },
   {
-    name: '💼 JobRoad',
-    description: 'Keep record and track all your job interviews in one place',
-    link: {
-      name: 'Live App',
-      url: 'https://jobroad.co/',
-    }
-  },
-  {
-    name: '🗓️ json-days',
-    description: 'A JSON data model for getting list of days in a specified year, quarter or month',
-    link: {
-      name: 'Source code',
-      url: 'https://github.com/ize-302/json-days',
-    }
-  },
-  {
     name: '⚙ Manage repos',
+    type: 'banner',
     description: 'Update & delete your github repositories easily',
     link: {
       name: 'Live app',
       url: 'https://manage-repos.vercel.app',
-    }
+    },
+    thumbnail: 'manage-repos.png'
   },
+
+
   {
     name: '👮🏽 pkg-police',
     description: 'A command-line utility that enumerates utilized and unused packages within a project.',
@@ -127,36 +118,47 @@ export const personalprojects = [
       url: 'https://github.com/ize-302/thecatapi-py-sdk',
     },
   },
-]
-
-export const opensourcecontributions = [
   {
-    name: "gh-emoji",
+    name: "😎 gh-emoji",
     description: "Use GitHub emojis from their API as an npm package",
     icon: "mood",
-    link: "https://github.com/privatenumber/gh-emojis/commits?author=ize-302",
+    link: {
+      name: "Contrubution",
+      url: "https://github.com/privatenumber/gh-emojis/commits?author=ize-302",
+    }
   },
   {
-    name: "JSON-calendar",
+    name: "📅  JSON-calendar",
     description:
       "A JSON data object that I used to display a calendar web UI",
     icon: "calendar_month",
-    link: "https://github.com/rxgx/json-calendar/commits?author=ize-302",
+    link: {
+      name: "Contribution",
+      url: "https://github.com/rxgx/json-calendar/commits?author=ize-302",
+    }
   },
   {
-    name: "nigerian-banks",
+    name: "🏦  nigerian-banks",
     description:
       "An API that provides Nigerian bank logos, slug and code.",
     icon: "corporate_fare",
-    link: "https://github.com/ichtrojan/nigerian-banks",
+    link: {
+      name: "Contribution",
+      url: "https://github.com/ichtrojan/nigerian-banks",
+    }
   },
   {
-    name: "nigerialogos",
+    name: "🕉 nigerialogos",
     description: "High quality vector logos for Nigerian companies",
     icon: "category",
-    link: "https://github.com/PaystackHQ/nigerialogos/commits?author=ize-302",
+    link: {
+      name: "Contribution",
+      url: "https://github.com/PaystackHQ/nigerialogos/commits?author=ize-302",
+    }
   },
 ]
+
+
 
 export const browsertools = [
   {
@@ -165,4 +167,13 @@ export const browsertools = [
     icon: "history",
     link: "https://github.com/ize-302/hstry",
   },
+]
+
+export const articles = [
+  {
+    name: "Understanding file access permissions in Unix-like systems",
+    link: "https://dev.to/ize/understanding-file-access-permissions-in-unix-like-systems-2ckp",
+    via: 'dev.to'
+  },
+
 ]
