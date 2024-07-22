@@ -24,15 +24,12 @@
   </div>
 </template>
 
-<script>
-import { articles } from "../projects";
-
-export default {
-  name: "Articles",
-  data() {
-    return {
-      articles,
-    };
+<script setup>
+const articles = [
+  {
+    name: "Understanding file access permissions in Unix-like systems",
+    link: "https://dev.to/ize/understanding-file-access-permissions-in-unix-like-systems-2ckp",
+    via: "dev.to",
   },
-};
+];
 </script>
