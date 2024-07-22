@@ -3,7 +3,8 @@
     <div class="container lg:mx-auto max-w-6xl px-5 md:px-10">
       <Introduction />
       <projects />
-      <open-source-contributions />
+      <hr />
+      <articles />
     </div>
   </div>
 </template>
@@ -11,10 +12,10 @@
 <script>
 import Introduction from "./components/Introduction.vue";
 import Projects from "./components/Projects.vue";
-import OpenSourceContributions from "./components/OpenSourceContributions.vue";
+import Articles from "./components/Articles.vue";
 
 export default {
-  components: { Introduction, Projects, OpenSourceContributions },
+  components: { Introduction, Projects, Articles },
   name: "App",
 };
 </script>
