@@ -80,7 +80,7 @@
           width="100%"
           class="absolute top-4 md:top-0 w-full rounded-md"
           alt="ss"
-          :src="`src/assets/${item.thumbnail}`"
+          :src="`./src/assets/${item.thumbnail}`"
         />
       </div>
     </div>
