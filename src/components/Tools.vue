@@ -1,13 +1,11 @@
 <template>
-    <h1
-    class="mt-16 text-2xl tracking-tighter text-zinc-800 font-bold"
-  >
+  <h1 class="mt-16 text-2xl tracking-tighter text-zinc-800 font-bold">
     Tech stack
   </h1>
-  <div class="mt-6 flex flex-wrap items-center gap-8">
+  <div class="mt-6 flex flex-wrap items-center gap-10">
     <div v-for="item in tools" class="flex flex-col items-center gap-3">
-        <Icon :icon="item.icon"  class="h-8 w-8" />
-        <p class="text-xs text-zinc-600">{{ item.name }}</p>
+      <Icon :icon="item.icon" class="h-8 w-8" />
+      <p class="text-xs text-zinc-600">{{ item.name }}</p>
     </div>
   </div>
 </template>
@@ -21,7 +19,7 @@ export default {
     return {
       tools: [{
         name: 'Figma',
-        icon:'logos:figma'
+        icon: 'logos:figma'
       },
       {
         name: 'Javascript',
@@ -42,7 +40,7 @@ export default {
         name: 'Nodejs',
         icon: 'logos:nodejs-icon',
       }, {
-        name:  'Python',
+        name: 'Python',
         icon: 'logos:python',
       },
       {
@@ -50,7 +48,7 @@ export default {
         icon: 'logos:postgresql',
       }, {
         name: 'Supabase',
-        icon:  'logos:supabase-icon'
+        icon: 'logos:supabase-icon'
       }, {
         name: 'AWS',
         icon: 'logos:aws'
