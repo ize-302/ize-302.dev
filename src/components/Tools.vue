@@ -11,52 +11,62 @@
 </template>
 
 <script>
-import { Icon } from '@iconify/vue';
+import { Icon } from "@iconify/vue";
 
 export default {
   name: "Tools",
   data() {
     return {
-      tools: [{
-        name: 'Figma',
-        icon: 'logos:figma'
-      },
-      {
-        name: 'Javascript',
-        icon: 'logos:javascript'
-      }, {
-        name: 'Typescript',
-        icon: 'logos:typescript-icon'
-      }, {
-        name: 'Vue',
-        icon: 'logos:vue',
-      }, {
-        name: 'Nextjs',
-        icon: 'logos:nextjs-icon',
-      }, {
-        name: 'Tailwindcss',
-        icon: 'logos:tailwindcss-icon',
-      }, {
-        name: 'Nodejs',
-        icon: 'logos:nodejs-icon',
-      }, {
-        name: 'Python',
-        icon: 'logos:python',
-      },
-      {
-        name: 'Postgres',
-        icon: 'logos:postgresql',
-      }, {
-        name: 'Supabase',
-        icon: 'logos:supabase-icon'
-      }, {
-        name: 'AWS',
-        icon: 'logos:aws'
-      }]
-    }
+      tools: [
+        {
+          name: "Figma",
+          icon: "logos:figma",
+        },
+        {
+          name: "Typescript",
+          icon: "logos:typescript-icon",
+        },
+        {
+          name: "Vue",
+          icon: "logos:vue",
+        },
+        {
+          name: "Nextjs",
+          icon: "logos:nextjs-icon",
+        },
+        {
+          name: "Tailwindcss",
+          icon: "logos:tailwindcss-icon",
+        },
+        {
+          name: "Nodejs",
+          icon: "logos:nodejs-icon",
+        },
+        {
+          name: "Nestjs",
+          icon: "logos:nestjs",
+        },
+        {
+          name: "Python",
+          icon: "logos:python",
+        },
+        {
+          name: "Postgres",
+          icon: "logos:postgresql",
+        },
+        {
+          name: "Supabase",
+          icon: "logos:supabase-icon",
+        },
+        {
+          name: "AWS",
+          icon: "logos:aws",
+        },
+      ],
+    };
   },
   components: {
-    Icon
-  }
+    Icon,
+  },
 };
 </script>
